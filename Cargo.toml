@@ -1,0 +1,11 @@
+[profile.release]
+panic = 'unwind'
+
+[workspace]
+members = [
+    'node',
+    'pallets/carpooling',
+	'pallets/carpooling/runtime-api',
+	'pallets/carpooling/rpc',
+    'runtime',
+]
